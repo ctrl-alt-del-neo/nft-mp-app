@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Style from './HelpCenter.module.css';
 
 const HelpCenter = () => {
   return (
