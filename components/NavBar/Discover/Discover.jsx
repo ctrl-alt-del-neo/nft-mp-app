@@ -36,7 +36,13 @@ const Discover = () => {
     },
   ]
   return (
-    <div>Discover</div>
+    <div>
+      {discover.map((menu, index) => (
+        <div key={index + 1} className={Style.discover}>
+          <Link href={{pathname: `${menu.link}`}}>{menu.name}</Link>
+        </div>
+      ))}
+    </div>
   )
 }
 
