@@ -20,7 +20,7 @@ const Profile = () => {
           height={50} 
           className={Style.profile_account_img}
         />
-        <div>
+        <div className={Style.profile_account_info}>
           <p>Gabriel Varulkar</p>
           <small>X038477382920203..</small>
         </div>
